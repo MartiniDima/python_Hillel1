@@ -24,3 +24,4 @@ partC = c//2 + c % 2
 print("для класса A", partA )
 print("для класса B", partB)
 print("для класса С", partC)
+print("общее количество парт если три класса будут сидеть в разных помещениях", partC + partB + partA)
