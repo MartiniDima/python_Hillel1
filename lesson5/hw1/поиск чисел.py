@@ -1,7 +1,7 @@
 
 
-string = int(input("введите число:"))
-substring = int(input("введите что нужно найти:"))
+string = str(input("введите число:"))
+substring = str(input("введите что нужно найти:"))
 
 cnt = string.count(substring)
 if cnt >= 2:
