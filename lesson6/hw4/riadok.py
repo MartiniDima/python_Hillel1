@@ -1,0 +1,12 @@
+string = str(input("введите строку не меньше 15 символов:"))
+f = len(string)
+if f > 15:
+    print("a.", string[2])
+    print("b.", string[-2])
+    print("c.", string[0:5])
+    print("d.", string[0:f - 2])
+    print("e", string[-f::2])
+    print("f.", string[1::2])
+    print("g.", string[::-1])
+    print("h", string[-1::-2])
+    print(len(string))
