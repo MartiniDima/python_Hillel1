@@ -5,7 +5,8 @@ num = 1
 while con < s:
     if con != s:
         con +=1
-        print(con, "{:>20}{}".format(peremenna, nul*con))
+        x = "{}{}".format(peremenna, nul*con)
+        print(con, "{:>20}".format(x))
 
 else:
     pass
